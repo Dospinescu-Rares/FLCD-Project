@@ -1,0 +1,20 @@
+Inserting the following values to the symbol table: x=10, PI=3.14159, 12=12
+
+Using Lookup to check the values of the elements that were inserted
+Value of x: 10
+Value of PI: 3.14159
+Value of 12: 12
+
+Checking if all the elements are present in the symbol table
+Is 'x' in the symbol table? true
+Is 'PI' in the symbol table? true
+Is '12' in the symbol table? true
+Is 'z' in the symbol table? false
+
+Removing the element with key 'y' from the symbol table
+Is 'y' in the symbol table? false
+
+Symbol Table Contents:
+12 => 12
+x => 10
+PI => 3.14159
