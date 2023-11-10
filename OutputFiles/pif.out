@@ -1,0 +1,217 @@
+Program Internal Form for program InputFiles/p1.vcl:
+Token 'void': (11, 0)
+Token 'maxThree': (5, 0)
+Token 'with': -1
+Token 'int': -1
+Token 'a': (7, 0)
+Token ',': -1
+Token 'int': -1
+Token 'b': (8, 0)
+Token ',': -1
+Token 'int': -1
+Token 'c': (9, 0)
+Token 'thus': -1
+Token 'largest': (19, 0)
+Token '=': -1
+Token '0': (0, 0)
+Token '.': -1
+Token 'if': -1
+Token 'a': (7, 0)
+Token '>=': -1
+Token 'b': (8, 0)
+Token '&&': -1
+Token 'a': (7, 0)
+Token '>=': -1
+Token 'c': (9, 0)
+Token 'then': -1
+Token 'largest': (19, 0)
+Token '=': -1
+Token 'a': (7, 0)
+Token '.': -1
+Token 'if': -1
+Token 'b': (8, 0)
+Token '>=': -1
+Token 'a': (7, 0)
+Token '&&': -1
+Token 'b': (8, 0)
+Token '>=': -1
+Token 'c': (9, 0)
+Token 'then': -1
+Token 'largest': (19, 0)
+Token '=': -1
+Token 'b': (8, 0)
+Token '.': -1
+Token 'if': -1
+Token 'c': (9, 0)
+Token '>=': -1
+Token 'a': (7, 0)
+Token '&&': -1
+Token 'c': (9, 0)
+Token '>=': -1
+Token 'b': (8, 0)
+Token 'then': -1
+Token 'largest': (19, 0)
+Token '=': -1
+Token 'c': (9, 0)
+Token '.': -1
+Token 'print': -1
+Token 'largest': (19, 0)
+Token '.': -1
+Token '.': -1
+
+
+Program Internal Form for program InputFiles/p2.vcl:
+Token 'void': (11, 0)
+Token 'checkPrime': (14, 0)
+Token 'with': -1
+Token 'int': -1
+Token 'n': (20, 0)
+Token 'thus': -1
+Token 'ok': (17, 0)
+Token '=': -1
+Token '0': (0, 0)
+Token '.': -1
+Token 'd': (10, 0)
+Token '=': -1
+Token '2': (2, 0)
+Token '.': -1
+Token 'while': -1
+Token 'd': (10, 0)
+Token '<=': -1
+Token 'n': (20, 0)
+Token '/': -1
+Token '2': (2, 0)
+Token '&&': -1
+Token 'ok': (17, 0)
+Token '==': -1
+Token '0': (0, 0)
+Token 'then': -1
+Token 'if': -1
+Token 'n': (20, 0)
+Token '%': -1
+Token 'd': (10, 0)
+Token '==': -1
+Token '0': (0, 0)
+Token 'then': -1
+Token 'ok': (17, 0)
+Token '=': -1
+Token '1': (1, 0)
+Token '.': -1
+Token ',': -1
+Token 'd': (10, 0)
+Token '+=': -1
+Token '1': (1, 0)
+Token '.': -1
+Token 'if': -1
+Token 'ok': (17, 0)
+Token '==': -1
+Token '0': (0, 0)
+Token 'then': -1
+Token 'print': -1
+Token '"n is a prime number"': (7, 0)
+Token '.': -1
+Token 'else': -1
+Token 'print': -1
+Token '"n is NOT a prime number"': (4, 0)
+Token '.': -1
+Token '.': -1
+
+
+Program Internal Form for program InputFiles/p3.vcl:
+Token 'void': (11, 0)
+Token 'maxArray': (12, 0)
+Token 'with': -1
+Token 'array': -1
+Token 'A': (17, 0)
+Token ',': -1
+Token 'int': -1
+Token 'n': (20, 0)
+Token 'thus': -1
+Token 'i': (15, 0)
+Token '=': -1
+Token '0': (0, 0)
+Token '.': -1
+Token 'biggest': (6, 0)
+Token '=': -1
+Token '0': (0, 0)
+Token '.': -1
+Token 'while': -1
+Token 'i': (15, 0)
+Token '<': -1
+Token 'n': (20, 0)
+Token 'then': -1
+Token 'if': -1
+Token 'i': (15, 0)
+Token 'from': -1
+Token 'A': (17, 0)
+Token '>': -1
+Token 'biggest': (6, 0)
+Token 'then': -1
+Token 'biggest': (6, 0)
+Token '=': -1
+Token 'i': (15, 0)
+Token 'from': -1
+Token 'A': (17, 0)
+Token '.': -1
+Token ',': -1
+Token 'i': (15, 0)
+Token '+=': -1
+Token '1': (1, 0)
+Token '.': -1
+Token 'print': -1
+Token 'biggest': (6, 0)
+Token '.': -1
+
+
+Program Internal Form for program InputFiles/p1err.vcl:
+Token 'void': (11, 0)
+Token 'maxThree': (5, 0)
+Token 'with': -1
+Token 'int': -1
+Token 'a': (7, 0)
+Token ',': -1
+Token 'int': -1
+Token 'b': (8, 0)
+Token 'thus': -1
+Token 'if': -1
+Token 'a': (7, 0)
+Token '>=': -1
+Token 'b': (8, 0)
+Token '&&': -1
+Token 'a': (7, 0)
+Token '>=': -1
+Token 'c': (9, 0)
+Token 'then': -1
+Token 'largest': (19, 0)
+Token '=': -1
+Token 'a': (7, 0)
+Token '.': -1
+Token 'if': -1
+Token 'b': (8, 0)
+Token '>=': -1
+Token 'a': (7, 0)
+Token '&&': -1
+Token 'b': (8, 0)
+Token 'c': (9, 0)
+Token 'then': -1
+Token 'largest': (19, 0)
+Token '=': -1
+Token 'b': (8, 0)
+Token '.': -1
+Token 'if': -1
+Token 'c': (9, 0)
+Token '>=': -1
+Token 'a': (7, 0)
+Token '&&': -1
+Token 'c': (9, 0)
+Token '>=': -1
+Token 'b': (8, 0)
+Token 'then': -1
+Token '=': -1
+Token 'c': (9, 0)
+Token '.': -1
+Token 'print': -1
+Token '.': -1
+Token 'print': -1
+
+
