@@ -3,7 +3,7 @@ from Domain.Scanner import *
 from Domain.SymbolTable import SymbolTable
 
 
-def main():
+def main_lab3():
     """
     Runs the lexical scanner for programs p1.vcl, p2.vcl, p3.vcl and p1err.vcl
     :return: None
@@ -33,4 +33,4 @@ def main():
             print(f"The program {file_name} has the following lexical errors:\n{lexical_errors}\n")
 
 
-main()
+main_lab3()

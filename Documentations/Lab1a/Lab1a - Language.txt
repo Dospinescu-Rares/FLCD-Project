@@ -1,0 +1,60 @@
++, -, *, /, % - Arithmetic Operators
+=, +=, -=, *=, /=, %= - Assignment Operators
+==, !=, >, <, >=, <= - Comparison Operators
+&&, ||, ! - Logical Operators
+if, while, then, else, from, as follows, with - Reserved Keywords
+then is used at the end of a condition
+// is used in order to start a comment
+. is used to tell the compiler it reached the end of a command
+, is used to:
+	- separate commands that should all be executed inside the same block of text
+	- separate elements in an array.
+.vcl would be a very cool file extension
+
+p1) Find the maximum out of 3 numbers
+void maxThree with int a, int b, int c as follows
+	largest = 0.
+	if a >= b && a >= c then
+		largest = a.
+	if b >= a && b >= c then
+		largest = b.
+	if c >= a && c >= b then
+		largest = c.
+	print largest..
+
+p2) Verify if a number is prime
+void checkPrime with int n as follows
+	ok = 0.
+	d = 2.
+	while d <= n/2 && ok == 0 then
+		if n % d == 0 then
+			ok = 1.,
+		d += 1.
+	if ok == 0 then
+		print "n is a prime number.
+	else
+		print "n is NOT a prime number"..
+
+p3) Compute the maximum of n numbers.
+void maxArray with array A, int n as follows
+	i = 0.
+	biggest = 0.
+	while i < n then
+		if i from A > biggest then
+			biggest = i from A.,
+		i += 1.
+	print biggest.
+
+p1err) Find the maximum out of 3 numbers
+# int c is not part of the arguments of the function as in not defined
+# $$ are present next to follows
+# at the third if statement we have th and not then
+void maxThree with int a, int b as follows$$
+	if a >= b && a >= c then
+		largest = a.
+	if b >= a && b >= c then
+		largest = b.
+	if c >= a && c >= b th
+		largest = c.
+	print largest..
+

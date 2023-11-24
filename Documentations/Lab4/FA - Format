@@ -1,0 +1,13 @@
+letter := "a" | "b" | ... | "z" | "A" | "B" | ... | "Z"
+number := "0" | "1" | ... | "9"
+
+file := "states = " states "\n alphabet = " string "\n initial_state = " initial_state
+        "\n final_states = " final_states "\n transitions = " transitions "\n"
+states := state | states state
+string = letter | string letter
+initial_state := state
+final_states := state | final_states state
+transitions := state route state | state route state "\n" transitions
+route = number | string
+
+state := letter | letter state

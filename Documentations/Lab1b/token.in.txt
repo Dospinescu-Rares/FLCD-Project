@@ -1,0 +1,10 @@
+1. Reserved Words: if, while, then, else, from, as follows,
+		   with, int, char, array, string, real, const, of
+
+2. Delimiters: , . space
+
+3. Operators:
+		a.    Arithmetic Operators + - * / %
+		b.   Assignment Operators = += -= *= /= %=
+		c.  Comparison Operators == != > < >= <=
+		d.   Logical Operators && || !

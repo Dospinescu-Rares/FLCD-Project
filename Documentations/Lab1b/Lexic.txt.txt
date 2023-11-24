@@ -1,0 +1,32 @@
+Alphabet:
+	a. Upper (A-Z) and lower case letters (a-z) of the English alphabet
+	b. Underline character '_'
+	c. Decimal digits (0-9);
+
+1. Lexic:
+	a. Special symbols representing:
+		i.    Arithmetic Operators + - * / %
+		ii.   Assignment Operators = += -= *= /= %=
+		iii.  Comparison Operators == != > < >= <=
+		iv.   Logical Operators && || !
+		v.    Separators , . space
+		vi.   Reserved Words if, while, then, else, from, as follows,
+			  	     with, int, char, array, string, real, const, of
+	b. Identifiers
+		A sequence of letters and digits, such that the first character is a letter
+		The rule is:
+			identifier := letter | letter {letter} {digit}
+			letter := "A" | "B" | ... | "Z"
+			digit := "0" | "1" | ... | "9"
+	c. Constants
+		i.    Integer with the rule:
+			non_zero_digit := "1" | "2" | ... | "9"
+			signed := "0" | ["+"|"-"] non_zero_digit {digit}
+			unsigned := non_zero_digit {digit}
+		ii.   Character with the rule:
+			character = 'letter' | 'digit' | "_"
+		iii.  String with the rule:
+			constantchar := "string"
+			string := char{string}
+			char := letter | digit | "_"
+

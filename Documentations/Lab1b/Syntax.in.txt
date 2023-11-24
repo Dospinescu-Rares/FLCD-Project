@@ -1,0 +1,23 @@
+The words - predefined tokens are specified between " and ":
+
+Sintactical rules:
+
+program := "VAR" decllist "," cmpdstmt "."
+decllist := declaration | declaration "," decllist
+declaration := IDENTIFIER ":" type
+basetype := "INT" | "CHAR" | "REAL" | "STRING"
+arraydecl := "ARRAY" n "OF" type1
+type  := basetype | arraydecl
+cmpdstmt := stmt "." | stmt "," stmtlist
+stmt := simplstmt | structstmt
+simplstmt := assignstmt | iostmt
+assignstmt := IDENTIFIER "=" expression
+expression := expression "+" term | term
+term := term "*" factor | factor
+factor := expression | IDENTIFIER
+iostmt := "READ" IDENTIFIER| "WRITE" IDENTIFIER
+structstmt := cmpdstmt | ifstmt | whilestmt
+ifstmt := "IF" condition "THEN" stmt ["ELSE" stmt]
+whilestmt := "WHILE" condition "THEN" stmt
+condition := expression RELATION expression
+RELATION := "<" | "<=" | "=" | "<>" | ">=" | ">"
